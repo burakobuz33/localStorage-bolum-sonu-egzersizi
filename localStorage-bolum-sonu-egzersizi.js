@@ -1,4 +1,4 @@
-// Fonksiyon bolum sonu egzersizi
+// localStorage Bolum Sonu Egzersizi
 
 let counter = 0
 let counterDOM = document.querySelector('#counter')
