@@ -12,12 +12,8 @@ deacreaseDOM.addEventListener("click", clickEvent)
 
 function clickEvent() {
     console.log(this.id)
-    if (this.id == "increase") {
-
-        counterDOM.innerHTML = counter += 1
-    } else {
-        counterDOM.innerHTML = counter -= 1
-    }
-
+    this.id == "increase" ? counter += 1 : counter -= 1
+    localStorage.setItem('counter', counter)
+    counterDOM.innerHTML = counter
 
 }
